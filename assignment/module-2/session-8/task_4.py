@@ -1,0 +1,5 @@
+def apply_coupon(amount,coupon_code=None):
+    if coupon_code == "SAVE10":
+        amount -= (amount *10/100)
+    return amount
+print(apply_coupon(1000,"SAVE10"))

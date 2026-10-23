@@ -1,0 +1,1 @@
+my_profile = ("Yash", 24 ,"Pizza", True)
